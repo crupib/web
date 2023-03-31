@@ -7,6 +7,8 @@ console.log(shorterSentence);
 let modifiedSentence = mySentence2.replace("is long","way to long");
 console.log(modifiedSentence);
 console.log("There are " +numberOfLetters+ " letters in " + myName);
+console.log(mySentence.toUpperCase());
+console.log(mySentence.toLowerCase());
 if(mySentence.indexOf("Hello World")>=0) 
     console.log("Hello is part of the sentence")
 else console.log("Hello is not part of the sentence");
